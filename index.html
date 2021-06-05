@@ -1,80 +1,255 @@
 <!DOCTYPE html>
 <html>
+<head>
 <title>GM Crafts & Paintings</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="css/app.css">
-<style>
+<link rel="icon" href="photos/sign.jpg" type="image/gif">
 
-</style>
+<link rel="stylesheet" href="css/app.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js" type="text/javascript"></script>
+		<!--script src="js/jquery.lint.js" type="text/javascript" charset="utf-8"></script-->
+		<link rel="stylesheet" href="css/prettyPhoto.css" type="text/css" media="screen" title="prettyPhoto main stylesheet" charset="utf-8" />
+		<script src="js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
+
+
+	<style type="text/css" media="screen">
+			* { margin: 0; padding: 0; }
+			
+			body {
+				
+				font: 62.5%/1.2 Arial, Verdana, Sans-Serif;
+				
+			}
+			
+			h1 { font-family: Georgia; font-style: italic; margin-bottom: 10px; }
+			
+			h2 {
+				font-family: Georgia;
+				font-style: italic;
+				margin: 25px 0 5px 0;
+			}
+			
+			p { font-size: 1.2em; }
+			
+			ul li { display: inline; }
+			
+			.wide {
+				border-bottom: 1px #000 solid;
+				width: 4000px;
+			}
+			
+			.fleft { float: left; margin: 0 20px 0 0; }
+			
+			.cboth { clear: both; }
+			
+			#main {
+				background: #fff;
+				margin: 0 auto;
+				padding: 30px;
+				width: 1000px;
+			}
+		</style>
+	</head>
 <body>
 
 <!-- Navbar (sit on top) -->
-<div class="w3-top">
-  <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
-    <a href="#home" class="w3-bar-item w3-button">GM Crafts & Paintings</a>
+<div class="top">
+  <div class="bar green padding card" style="letter-spacing:1px;font-size:20px">
+    <a href="#home" class="bar-item button"><img src="photos/sign.jpg" style="max-width:35px;max-height:35px"/> GM Crafts & Paintings</a>
     <!-- Right-sided navbar links. Hide them on small screens -->
-    <div class="w3-right w3-hide-small">
-      <a href="#about" class="w3-bar-item w3-button">About</a>
-	  <a href="#tailoring" class="w3-bar-item w3-button">Tailoring</a>
-	  <a href="#photos" class="w3-bar-item w3-button">Photos</a>
-	  <a href="#videos" class="w3-bar-item w3-button">Videos</a>
-      <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+    <div class="right hide-small">
+      <a href="#about" class="bar-item button">About</a>
+	  <a href="#tailoring" class="bar-item button">Tailoring</a>
+	  <a href="#photos" class="bar-item button">Photos</a>
+	  <a href="#videos" class="bar-item button">Videos</a>
+      <a href="#contact" class="bar-item button">Contacts&nbsp&nbsp&nbsp</a>
     </div>
   </div>
 </div>
 
 <!-- Header -->
-<header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
-  <img class="w3-image" src="/pics/header.jpg" alt="GM Paintings" width="auto" height="auto">
-  <div class="w3-display-bottomleft w3-padding-large w3-opacity">
-    <h1 class="w3-xxlarge">GM creations</h1>
-  </div>
-</header>
+
+
 
 <!-- Page content -->
-<div class="w3-content" style="max-width:1100px">
+<div class="content" style="max-width:1100px">
 
   <!-- About Section -->
-  <div class="w3-row w3-padding-64" id="about">
-    <div class="w3-col m6 w3-padding-large w3-hide-small">
-     <img src="/pics/tablesetting2.jpg" class="w3-round w3-image w3-opacity-min" alt="About" width="600" height="750">
+  <div class="row padding-64" id="about">
+    <div class="col m6 padding-large hide-small">
+     <img src="/pics/tablesetting2.jpg" class="round image opacity-min" alt="About">
     </div>
 
-    <div class="w3-col m6 w3-padding-large">
-      <h1 class="w3-center">About me</h1><br>
-      <h5 class="w3-center">Crafter & Painter</h5>
-      <p class="w3-large">Comming soon</p>
+    <div class="col m6 padding-large">
+      <h1 class="center">About me</h1><br>
+      <h5 class="center">Artist</h5>
+      <p class="large">My name is Maithili. Crafting and Painting is my hobby. I do my own handmade art works, paintings and crafts. Initially I was doing it my DIY small craft for myself. Now I am doing it to sell. I do different types of painting like Acrylic paintings, chalk painting, Glue art, Glitter art and Stone art. Crafting out of un-used items. Crafting and different type of wall art is my new favourite.  </p>
     </div>
   </div>
   
   <hr>
   
   <!-- Photos Section -->
-  <div class="w3-row w3-padding-64" id="photos">
-    <div class="w3-col l6 w3-padding-large">
-      <h1 class="w3-center">Photos of my creations</h1><br>
-      <h4>Photos of my Paintings and crafts creations</h4>
-      <p class="w3-text-grey">Comming soon</p>    <br>
+  <div class="center" id="photos">
+    <div class="center">
+      <h1 class="center" style="padding-top:80px">Photos of my creations</h1><br>
+      <h4>Pictures of art items created by me. It incudes differnt types of arts, crafts and paintings. Below pictures are some of my Line art, Acrylic painting on canvas and paper, Texture painting using glue and glitters, Dreamcatcher of different styles, Macrames,Wall arts, Stone arts, Dry flowers and leaves and door arts. I made some ear studs also.
+	 <br>
+	  Click on the picture to view it.</h4><br>
+	  
     </div>
+	<br>
+	</div>
+
+
+	
+			<ul class="gallery clearfix">
+				<!--Glitter art-->
+				<li><a href="photos/AllahMohammadGlitterArt.jpg" rel="prettyPhoto[gallery2]" title="Allah Mohammad Glitter art"><img style="border-style:solid;border-color:green;border-width:2px;" src="photos/AllahMohammadGlitterArt.jpg" width="100" height="100" alt="Allah Mohammad Glitter art" /></a></li>
+				<li><a href="photos/MahadevGlitterArt.jpg" rel="prettyPhoto[gallery2]" title="Mahadev Glitter Art"><img style="border-style:solid;border-color:green;border-width:2px;" src="photos/MahadevGlitterArt.jpg" width="100" height="100" alt="Mahadev Glitter Art" /></a></li>
+				<li><a href="photos/SilverAndBluePaintingWithGlitterAndStone.jpg" rel="prettyPhoto[gallery2]" title="Slver and Blue Glitter Art"><img style="border-style:solid;border-color:green;border-width:2px;" src="photos/SilverAndBluePaintingWithGlitterAndStone.jpg" width="100" height="100" alt="Silver and Blue Glitter Art" /></a></li>
+				
+				<!--Acrylic painting-->
+				<li><a href="photos/BlackCanvasLady.jpg" rel="prettyPhoto[gallery2]"  title="Acrylic painting Lady on Canvas"><img style="border-style:solid;border-color:green;border-width:2px;" src="photos/BlackCanvasLady.jpg" width="100" height="100" alt="Acrylic painting Lady on Canvas" /></a></li>
+				<li><a href="photos/CheersPainting.jpg" rel="prettyPhoto[gallery2]"  title="Acrylic painting Cheers on Canvas"><img style="border-style:solid;border-color:green;border-width:2px;" src="photos/CheersPainting.jpg" width="100" height="100" alt="Acrylic painting Cheers on Canvas" /></a></li>
+				<li><a href="photos/ElephantHeadColorfulPainting.jpg" rel="prettyPhoto[gallery2]"  title="Acrylic painting Elephant head on Canvas"><img style="border-style:solid;border-color:green;border-width:2px;" src="photos/ElephantHeadColorfulPainting.jpg" width="100" height="100" alt="Acrylic painting Elephant head on Canvas" /></a></li>
+				<li><a href="photos/LadyWithBlackHat.jpg" rel="prettyPhoto[gallery2]"  title="Acrylic painting Lady on Canvas"><img style="border-style:solid;border-color:green;border-width:2px;" src="photos/LadyWithBlackHat.jpg" width="100" height="100" alt="Acrylic painting Lady on Canvas" /></a></li>
+				<li><a href="photos/PuppyWithButterfly.jpg" rel="prettyPhoto[gallery2]"  title="Acrylic painting PuppyWithButterfly on Canvas"><img style="border-style:solid;border-color:green;border-width:2px;" src="photos/PuppyWithButterfly.jpg" width="100" height="100" alt="Acrylic painting PuppyWithButterfly on Canvas" /></a></li>
+				<li><a href="photos/SunsetPainting.jpg" rel="prettyPhoto[gallery2]"  title="Acrylic painting Scene on Canvas"><img style="border-style:solid;border-color:green;border-width:2px;" src="photos/SunsetPainting.jpg" width="100" height="100" alt="Acrylic painting Scene on Canvas" /></a></li>
+				<li><a href="photos/WhiteLady.jpg" rel="prettyPhoto[gallery2]"  title="Acrylic painting Lady on Canvas"><img style="border-style:solid;border-color:green;border-width:2px;" src="photos/WhiteLady.jpg" width="100" height="100" alt="Acrylic painting Lady on Canvas" /></a></li>
+				<li><a href="photos/HanumanPainting.jpg" rel="prettyPhoto[gallery2]"  title="Acrylic painting God Hanuman"><img style="border-style:solid;border-color:green;border-width:2px;" src="photos/HanumanPainting.jpg" width="100" height="100" alt="Acrylic painting God Hanuman" /></a></li>
+				<li><a href="photos/LadyWithBlackHat1.jpg" rel="prettyPhoto[gallery2]"  title="Acrylic painting Lady on Paper"><img style="border-style:solid;border-color:green;border-width:2px;" src="photos/LadyWithBlackHat1.jpg" width="100" height="100" alt="Acrylic painting Lady on Paper" /></a></li>
+				
+				<!--Sketch-->
+				<li><a href="photos/GaneshSketch.jpg" rel="prettyPhoto[gallery2]"  title="Sketch God Ganesh"><img style="border-style:solid;border-color:green;border-width:2px;" src="photos/GaneshSketch.jpg" width="100" height="100" alt="Sketch God Ganesh" /></a></li>	
+				<li><a href="photos/GirlOnTreeBranchSketch.jpg" rel="prettyPhoto[gallery2]"  title="Sketch Girl on tree"><img style="border-style:solid;border-color:green;border-width:2px;" src="photos/GirlOnTreeBranchSketch.jpg" width="100" height="100" alt="Sketch girl on tree" /></a></li>
+				
+				<li><a href="photos/BhagatSinghSketch.jpg" rel="prettyPhoto[gallery2]"  title="Sketch Freedom fighter Bhagat Singh"><img style="border-style:solid;border-color:green;border-width:2px;" src="photos/BhagatSinghSketch.jpg" width="100" height="100" alt="Sketch Freedom fighter Bhagat Singh" /></a></li>
+				<li><a href="photos/BabyWithButterflySketch.jpg" rel="prettyPhoto[gallery2]"  title="Sketch Baby With Butterfly"><img style="border-style:solid;border-color:green;border-width:2px;" src="photos/BabyWithButterflySketch.jpg" width="100" height="100" alt="Sketch Baby With Butterfly" /></a></li>
+				<li><a href="photos/ButterflyGirlSketch.jpg" rel="prettyPhoto[gallery2]"  title="Sketch  butterfly girl"><img style="border-style:solid;border-color:green;border-width:2px;" src="photos/ButterflyGirlSketch.jpg" width="100" height="100" alt="Sketch butterfly girl" /></a></li>
+				<li><a href="photos/DancingGirlSketch.jpg" rel="prettyPhoto[gallery2]"  title="Sketch Dancing Girl"><img style="border-style:solid;border-color:green;border-width:2px;" src="photos/DancingGirlSketch.jpg" width="100" height="100" alt="Sketch Dancing girl" /></a></li>				
+				<li><a href="photos/ElephantWithHerKidSketch.jpg" rel="prettyPhoto[gallery2]"  title="Sketch Elephant"><img style="border-style:solid;border-color:green;border-width:2px;" src="photos/ElephantWithHerKidSketch.jpg" width="100" height="100" alt="Sketch Elephant" /></a></li>
+				<li><a href="photos/FlyingGirlSketch.jpg" rel="prettyPhoto[gallery2]"  title="Sketch flying Girl"><img style="border-style:solid;border-color:green;border-width:2px;" src="photos/FlyingGirlSketch.jpg" width="100" height="100" alt="Sketch flying girl" /></a></li>
+				<li><a href="photos/FreeBirdSketch.jpg" rel="prettyPhoto[gallery2]"  title="Sketch Free birds"><img style="border-style:solid;border-color:green;border-width:2px;" src="photos/FreeBirdSketch.jpg" width="100" height="100" alt="Sketch Free birds" /></a></li>
+							
+				<li><a href="photos/GirlWithGuitarSketch.jpg" rel="prettyPhoto[gallery2]"  title="Sketch Girl with Guitar"><img style="border-style:solid;border-color:green;border-width:2px;" src="photos/GirlWithGuitarSketch.jpg" width="100" height="100" alt="Sketch girl Guitar" /></a></li>
+				<li><a href="photos/HeartSketch3D.jpg" rel="prettyPhoto[gallery2]"  title="Sketch 3D heart"><img style="border-style:solid;border-color:green;border-width:2px;" src="photos/HeartSketch3D.jpg" width="100" height="100" alt="Sketch 3D Heart" /></a></li>
+				<li><a href="photos/MahatmaGandhiSketch.jpg" rel="prettyPhoto[gallery2]"  title="Sketch Freedom fighter Mahatma Gandhi"><img style="border-style:solid;border-color:green;border-width:2px;" src="photos/MahatmaGandhiSketch.jpg" width="100" height="100" alt="Sketch Freedom fighter Mahatma Gandhi" /></a></li>
+				<li><a href="photos/SceneSketch.jpg" rel="prettyPhoto[gallery2]"  title="Sketch Scene"><img style="border-style:solid;border-color:green;border-width:2px;" src="photos/SceneSketch.jpg" width="100" height="100" alt="Sketch Scene" /></a></li>	
+				
+				<li><a href="photos/ShivaLingSketch.jpg" rel="prettyPhoto[gallery2]"  title="Sketch God Shiva Ling"><img style="border-style:solid;border-color:green;border-width:2px;" src="photos/ShivaLingSketch.jpg" width="100" height="100" alt="Sketch God Shiva Ling" /></a></li>
+				<li><a href="photos/ShivParvatiArdhanariswarSketch.jpg" rel="prettyPhoto[gallery2]"  title="Sketch God Shiva and Parvati"><img style="border-style:solid;border-color:green;border-width:2px;" src="photos/ShivParvatiArdhanariswarSketch.jpg" width="100" height="100" alt="Sketch God Shiva and Parvati" /></a></li>
+				<li><a href="photos/SquirrelSketch.jpg" rel="prettyPhoto[gallery2]"  title="Sketch Squirrel"><img style="border-style:solid;border-color:green;border-width:2px;" src="photos/SquirrelSketch.jpg" width="100" height="100" alt="Sketch Squirrel" /></a></li>
+				
+				<li><a href="photos/SceneSketch1.jpg" rel="prettyPhoto[gallery2]"  title="Sketch Scene"><img style="border-style:solid;border-color:green;border-width:2px;" src="photos/SceneSketch1.jpg" width="100" height="100" alt="Sketch Scene" /></a></li>							
+				
+				<!-- Stone art -->
+				
+				<li><a href="photos/StoneArtBalloonMan.jpg" rel="prettyPhoto[gallery2]"  title="Stone art Balloon man"><img style="border-style:solid;border-color:green;border-width:2px;" src="photos/StoneArtBalloonMan.jpg" width="100" height="100" alt="Stone art Balloon man" /></a></li>
+				<li><a href="photos/StoneArtCouple.jpg" rel="prettyPhoto[gallery2]"  title="Stone art Couple"><img style="border-style:solid;border-color:green;border-width:2px;" src="photos/StoneArtCouple.jpg" width="100" height="100" alt="Stone art Couple" /></a></li>
+				<li><a href="photos/StoneArtFamily.jpg" rel="prettyPhoto[gallery2]"  title="Stone art group"><img style="border-style:solid;border-color:green;border-width:2px;" src="photos/StoneArtFamily.jpg" width="100" height="100" alt="Stone art group" /></a></li>
+				
+				<!-- Chalk painting -->
+				<li><a href="photos/ChalkPainting.jpg" rel="prettyPhoto[gallery2]"  title="Chalk painting"><img style="border-style:solid;border-color:green;border-width:2px;" src="photos/ChalkPainting.jpg" width="100" height="100" alt="Chalk painting" /></a></li>
+				
+				<!-- Stone Painting -->
+
+				<li><a href="photos/StonePaintingBuddha.jpg" rel="prettyPhoto[gallery2]"  title="Stone Acrylic painting"><img style="border-style:solid;border-color:green;border-width:2px;" src="photos/StonePaintingBuddha.jpg" width="100" height="100" alt="Stone Acrylic painting" /></a></li>
+				
+				<!-- Pen sketch -->
+				<li><a href="photos/FlowerPaintingWithPen.jpg" rel="prettyPhoto[gallery2]"  title="Flower sketch with pen"><img style="border-style:solid;border-color:green;border-width:2px;" src="photos/FlowerPaintingWithPen.jpg" width="100" height="100" alt="Flower sketch with pen" /></a></li>
+				
+				<li><a href="photos/FlowerSketch.jpg" rel="prettyPhoto[gallery2]"  title="Flower sketch with pen"><img style="border-style:solid;border-color:green;border-width:2px;" src="photos/FlowerSketch.jpg" width="100" height="100" alt="Flower sketch with pen" /></a></li>
+				
+					
+				<!-- Canvas art -->
+				<li><a href="photos/BlueCanvasWithPaperArt.jpg" rel="prettyPhoto[gallery2]"  title="Blue canvas with paper art sticker"><img style="border-style:solid;border-color:green;border-width:2px;" src="photos/BlueCanvasWithPaperArt.jpg" width="100" height="100" alt="Blue canvas with paper art sticker" /></a></li>
+				
+				<!-- Line art -->
+				<li><a href="photos/LineArt1.jpg" rel="prettyPhoto[gallery2]"  title="Line Art"><img style="border-style:solid;border-color:green;border-width:2px;" src="photos/LineArt1.jpg" width="100" height="100" alt="Line Art" /></a></li>
+				<li><a href="photos/LineArt2.jpg" rel="prettyPhoto[gallery2]"  title="Line Art"><img style="border-style:solid;border-color:green;border-width:2px;" src="photos/LineArt2.jpg" width="100" height="100" alt="Line Art" /></a></li>
+				<li><a href="photos/LineArt3.jpg" rel="prettyPhoto[gallery2]"  title="Line Art"><img style="border-style:solid;border-color:green;border-width:2px;" src="photos/LineArt3.jpg" width="100" height="100" alt="Line Art" /></a></li>
+				<li><a href="photos/LineArt4.jpg" rel="prettyPhoto[gallery2]"  title="Line Art"><img style="border-style:solid;border-color:green;border-width:2px;" src="photos/LineArt4.jpg" width="100" height="100" alt="Line Art" /></a></li>
+				<li><a href="photos/LineArt5.jpg" rel="prettyPhoto[gallery2]"  title="Line Art"><img style="border-style:solid;border-color:green;border-width:2px;" src="photos/LineArt5.jpg" width="100" height="100" alt="Line Art" /></a></li>
+				<li><a href="photos/LineArt6.jpg" rel="prettyPhoto[gallery2]"  title="Line Art"><img style="border-style:solid;border-color:green;border-width:2px;" src="photos/LineArt6.jpg" width="100" height="100" alt="Line Art" /></a></li>
+				<li><a href="photos/LineArt7.jpg" rel="prettyPhoto[gallery2]"  title="Line Art"><img style="border-style:solid;border-color:green;border-width:2px;" src="photos/LineArt7.jpg" width="100" height="100" alt="Line Art" /></a></li>
+				<li><a href="photos/LineArt8.jpg" rel="prettyPhoto[gallery2]"  title="Line Art"><img style="border-style:solid;border-color:green;border-width:2px;" src="photos/LineArt8.jpg" width="100" height="100" alt="Line Art" /></a></li>
+				<li><a href="photos/LadyWithHat.jpg" rel="prettyPhoto[gallery2]"  title="Line Art"><img style="border-style:solid;border-color:green;border-width:2px;" src="photos/LadyWithHat.jpg" width="100" height="100" alt="Line Art" /></a></li>
+				
+				
+				
+				<!-- dreamcatcher -->
+				<li><a href="photos/BlueDreamCatcher.jpg" rel="prettyPhoto[gallery2]"  title="Dreamcatcher blue"><img style="border-style:solid;border-color:green;border-width:2px;" src="photos/BlueDreamCatcher.jpg" width="100" height="100" alt="Dreamcatcher blue" /></a></li>
+				<li><a href="photos/BrownAndWhiteDreamCatcher.jpg" rel="prettyPhoto[gallery2]"  title="Dreamcatcher brown and white"><img style="border-style:solid;border-color:green;border-width:2px;" src="photos/BrownAndWhiteDreamCatcher.jpg" width="100" height="100" alt="Dreamcatcher brown and white" /></a></li>
+				<li><a href="photos/PinkDreamcatcher.jpg" rel="prettyPhoto[gallery2]"  title="Dreamcatcher pink"><img style="border-style:solid;border-color:green;border-width:2px;" src="photos/PinkDreamcatcher.jpg" width="100" height="100" alt="Dreamcatcher pink" /></a></li>
+				<li><a href="photos/PinkDreamCatcher1.jpg" rel="prettyPhoto[gallery2]"  title="Dreamcatcher pink"><img style="border-style:solid;border-color:green;border-width:2px;" src="photos/PinkDreamCatcher1.jpg" width="100" height="100" alt="Dreamcatcher pink" /></a></li>
+				<li><a href="photos/UnicornCreamCatcher.jpg" rel="prettyPhoto[gallery2]"  title="Dreamcatcher unicorn"><img style="border-style:solid;border-color:green;border-width:2px;" src="photos/UnicornCreamCatcher.jpg" width="100" height="100" alt="Dreamcatcher unicorn" /></a></li>
+					
+				
+				<!-- Macrame -->
+				<li><a href="photos/HeartMacrame.jpg" rel="prettyPhoto[gallery2]"  title="Macrame heart"><img style="border-style:solid;border-color:green;border-width:2px;" src="photos/HeartMacrame.jpg" width="100" height="100" alt="Macrame heart" /></a></li>
+				<li><a href="photos/MacrameScene.jpg" rel="prettyPhoto[gallery2]"  title="Macrame Scene"><img style="border-style:solid;border-color:green;border-width:2px;" src="photos/MacrameScene.jpg" width="100" height="100" alt="Macrame Scene" /></a></li>
+				<li><a href="photos/RoundMacrame.jpg" rel="prettyPhoto[gallery2]"  title="Macrame Round"><img style="border-style:solid;border-color:green;border-width:2px;" src="photos/RoundMacrame.jpg" width="100" height="100" alt="Macrame Round" /></a></li>
+				<li><a href="photos/YellowMacrame.jpg" rel="prettyPhoto[gallery2]"  title="Macrame Yellow"><img style="border-style:solid;border-color:green;border-width:2px;" src="photos/YellowMacrame.jpg" width="100" height="100" alt="Macrame yellow" /></a></li>
+				<!-- Dry Flower And Leaves Art -->
+				<li><a href="photos/DryFlowerAndLeavesArt.jpg" rel="prettyPhoto[gallery2]"  title="Dry Flower And Leaves Art"><img style="border-style:solid;border-color:green;border-width:2px;" src="photos/DryFlowerAndLeavesArt.jpg" width="100" height="100" alt="Dry Flower And Leaves Art" /></a></li>
+				
+				<!-- Ear Studs -->
+				<li><a href="photos/EarStuds.jpg" rel="prettyPhoto[gallery2]"  title="Ear Studs"><img style="border-style:solid;border-color:green;border-width:2px;" src="photos/EarStuds.jpg" width="100" height="100" alt="Ear Studs" /></a></li>
+				
+				<!-- Glue art -->
+				<li><a href="photos/FlowerPaintingWithGlueTextureBorder.jpg" rel="prettyPhoto[gallery2]"  title="Glue art"><img style="border-style:solid;border-color:green;border-width:2px;" src="photos/FlowerPaintingWithGlueTextureBorder.jpg" width="100" height="100" alt="Glue art" /></a></li>
+				
+				
+				
+				
+				
+				
+				<!-- Photo frame -->
+				<li><a href="photos/PhotoFrame.jpg" rel="prettyPhoto[gallery2]"  title="PhotoFrame"><img style="border-style:solid;border-color:green;border-width:2px;" src="photos/PhotoFrame.jpg" width="100" height="100" alt="PhotoFrame" /></a></li>
+				
+				<!-- Door art -->
+				<li><a href="photos/SummerWreath.jpg" rel="prettyPhoto[gallery2]"  title="Summer wreath"><img style="border-style:solid;border-color:green;border-width:2px;" src="photos/SummerWreath.jpg" width="100" height="100" alt="Summer wreath" /></a></li>
+				
+				<li><a href="photos/WelComeDoorArt.jpg" rel="prettyPhoto[gallery2]"  title="Welcome Door Art"><img style="border-style:solid;border-color:green;border-width:2px;" src="photos/WelComeDoorArt.jpg" width="100" height="100" alt="Welcome Door Art" /></a></li>
+				
+				
+				
+			</ul>
+			
+			<script type="text/javascript" charset="utf-8">
+			$(document).ready(function(){
+				$("area[rel^='prettyPhoto']").prettyPhoto();
+				
+				$(".gallery:first a[rel^='prettyPhoto']").prettyPhoto({animation_speed:'normal',theme:'light_square',slideshow:3000, autoplay_slideshow: true});
+				$(".gallery:gt(0) a[rel^='prettyPhoto']").prettyPhoto({animation_speed:'fast',slideshow:10000, hideflash: true});
+		
+				$("#custom_content a[rel^='prettyPhoto']:first").prettyPhoto({
+					custom_markup: '<div id="map_canvas" style="width:260px; height:265px"></div>',
+					changepicturecallback: function(){ initialize(); }
+				});
+
+				$("#custom_content a[rel^='prettyPhoto']:last").prettyPhoto({
+					custom_markup: '<div id="bsap_1259344" class="bsarocks bsap_d49a0984d0f377271ccbf01a33f2b6d6"></div><div id="bsap_1237859" class="bsarocks bsap_d49a0984d0f377271ccbf01a33f2b6d6" style="height:260px"></div><div id="bsap_1251710" class="bsarocks bsap_d49a0984d0f377271ccbf01a33f2b6d6"></div>',
+					changepicturecallback: function(){ _bsap.exec(); }
+				});
+			});
+			</script>
     
-    <div class="w3-col l6 w3-padding-large">
-      <img src="/pics/tablesetting.jpg" class="w3-round w3-image w3-opacity-min" alt="Photos" style="width:100%">
-    </div>
-  </div>
 
-  <hr>
-
+  <br>
+<hr>
   <!-- Videos Section -->
-  <div class="w3-row w3-padding-64" id="videos">
-    <div class="w3-col l6 w3-padding-large">
-      <h1 class="w3-center">Videos of my creations</h1><br>
+  <div class="row padding-64" id="videos">
+    <div class="col l6 padding-large">
+      <h1 class="center">Videos of my creations</h1><br>
       <h4>Videos of my Paintings and crafts creations</h4>
-      <p class="w3-text-grey">Comming soon</p>    <br>
+      <p class="text-grey">Comming soon</p>    <br>
     </div>
     
-    <div class="w3-col l6 w3-padding-large">
-      <img src="/pics/tablesetting.jpg" class="w3-round w3-image w3-opacity-min" alt="Videos" style="width:100%">
+    <div class="col l6 padding-large">
+      <img src="/pics/tablesetting.jpg" class="round image opacity-min" alt="Videos" style="width:100%">
     </div>
   </div>
 
@@ -84,32 +259,32 @@
   
 
   <!-- Tailoring Section -->
-  <div class="w3-row w3-padding-64" id="tailoring">
-    <div class="w3-col l6 w3-padding-large">
-      <h1 class="w3-center">Tailoring Services</h1><br>
+  <div class="row padding-64" id="tailoring">
+    <div class="col l6 padding-large">
+      <h1 class="center">Tailoring Services</h1><br>
       <h4>Alteration and sewing services</h4>
-      <p class="w3-text-grey">Comming soon</p>    <br>
+      <p class="text-grey">Comming soon</p>    <br>
     </div>
     
-    <div class="w3-col l6 w3-padding-large">
-      <img src="/pics/tablesetting.jpg" class="w3-round w3-image w3-opacity-min" alt="Tailoring" style="width:100%">
+    <div class="col l6 padding-large">
+      <img src="/pics/tablesetting.jpg" class="round image opacity-min" alt="Tailoring" style="width:100%">
     </div>
   </div>
 
   <hr>
 
   <!-- Contact Section -->
-  <div class="w3-container w3-padding-64" id="contact">
+  <div class="container padding-64" id="contact">
     <h1>Contacts</h1><br>
     <p></p>
-    <p class="w3-text-blue-grey w3-large"><b>GM crafts and piantings, 1375 Prince of wales dr, Ottawa, ON K2C 3L5</b></p>
+    <p class="text-blue-grey large"><b>GM crafts and piantings, 1375 Prince of wales dr, Ottawa, ON K2C 3L5</b></p>
     <p>You can also contact us by phone +1(613) 501-4651 or email gmpaintingandcraftwebsite@gmail.com </p>
 	<!--, or you can send us a message here:</p>
     <form action="/action_page.php" target="_blank">
-      <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
-      <p><input class="w3-input w3-padding-16" type="number" placeholder="Contact number" required name="People"></p>
-      <p><input class="w3-input w3-padding-16" type="text" placeholder="Message \ Special requirements" required name="Message"></p>
-      <p><button class="w3-button w3-light-grey w3-section" type="submit">SEND MESSAGE</button></p>
+      <p><input class="input padding-16" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="input padding-16" type="number" placeholder="Contact number" required name="People"></p>
+      <p><input class="input padding-16" type="text" placeholder="Message \ Special requirements" required name="Message"></p>
+      <p><button class="button light-grey section" type="submit">SEND MESSAGE</button></p>
     </form> -->
   </div>
   
@@ -118,7 +293,7 @@
 </div>
 
 <!-- Footer -->
-<footer class="w3-center w3-light-grey w3-padding-32">
+<footer class="center light-grey padding-32">
   <br>Footer
 </footer>
 </body>
